@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
     <div className="max-w-xl mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4 text-black mt-20">To Do List</h1>
+      <h1 className="text-3xl font-bold text-black mt-20 mb-20">To Do List</h1>
       <TaskList
         tasks={tasks}
         editTask={editTask}
